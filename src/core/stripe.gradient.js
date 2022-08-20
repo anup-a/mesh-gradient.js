@@ -38,6 +38,7 @@ export class Gradient {
       e(this, "angle", 0),
       e(this, "inputColors", []),
       e(this, "isLoadedClass", !1),
+      e(
         this,
         "scrollingTimeout",
         void 0
@@ -69,6 +70,15 @@ export class Gradient {
       e(this, "isMetaKey", !1),
       e(this, "isGradientLegendVisible", !1),
       e(this, "resize", () => {
+        // (this.width = window.innerWidth),
+        //   this.minigl.setSize(this.width, this.height),
+        //   this.minigl.setOrthographicCamera(),
+        //   (this.xSegCount = Math.ceil(this.width * this.conf.density[0])),
+        //   (this.ySegCount = Math.ceil(this.height * this.conf.density[1])),
+        //   this.mesh.geometry.setTopology(this.xSegCount, this.ySegCount),
+        //   this.mesh.geometry.setSize(this.width, this.height),
+        //   (this.mesh.material.uniforms.u_shadow_power.value =
+        //     this.width < 600 ? 5 : 6);
       }),
       e(this, "addIsLoadedClass", () => {
         /*this.isIntersecting && */ !this.isLoadedClass &&

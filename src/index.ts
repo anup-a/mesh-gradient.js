@@ -1,5 +1,4 @@
-// @ts-nocheck
-import { Gradient } from "./core/stripe.gradient";
+const { Gradient } = require("./core/stripe.gradient");
 
-export const Gradient;
+export default Gradient;
 
