@@ -1,4 +1,4 @@
-import Gradient from '../index';
+import MeshGradient from '../index';
 import 'jest-canvas-mock';
 import 'jest-webgl-canvas-mock';
 
@@ -10,7 +10,7 @@ test('create new Mesh Gradient', () => {
   const colors = ['#fff', '#fff', '#fff', '#fff'];
   document.body.appendChild(newCanvas);
 
-  const meshGradient = new Gradient();
+  const meshGradient = new MeshGradient();
   expect(meshGradient).not.toBe(undefined);
   expect(meshGradient.initGradient('#my-canvas', colors)).not.toBe(undefined);
 });

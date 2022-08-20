@@ -1,3 +1,3 @@
-const { Gradient } = require('./core/stripe.gradient');
+const { Gradient: MeshGradient } = require('./core/stripe.gradient');
 
-export default Gradient;
+export default MeshGradient;
