@@ -1,6 +1,6 @@
 {
   "name": "mesh-gradient.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A tiny utility to generate mesh gradients in a HTML canvas.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
