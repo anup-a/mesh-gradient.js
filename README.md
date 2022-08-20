@@ -1,10 +1,21 @@
-Mesh-gradient.js is tiny utility library to generate mesh gradient based on 4 RGB colors.
-## Installation
+# MeshGradient.js
+`mesh-gradient.js` is tiny utility library to generate mesh gradient based on 4 RGB colors, built with vanilla js.
+
+![mesh-610](https://user-images.githubusercontent.com/29516633/185747754-ea673532-c25b-46fc-98a3-6942bf96a547.png)
+
+
+## Installation!
+
 
 `npm install mesh-gradient.js` or `yarn add mesh-gradient.js`
 
 ## Basic Usage
 
+Vanilla JS
+
+```js
+```
+React
 ```jsx
 import MeshGradient from 'mesh-gradient.js';
 import { useEffect } from 'react';
@@ -63,7 +74,7 @@ gradient.reGenerateCanvas();
 ```
 
 Mesh Gradient Model 
-```json
+```js
 {
     isLoadedClass: boolean;
     el: any;
