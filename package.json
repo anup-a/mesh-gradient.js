@@ -16,7 +16,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "lint": "tslint -p tsconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/*.ts\" \"src/*.js\" \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/*.ts\" \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
