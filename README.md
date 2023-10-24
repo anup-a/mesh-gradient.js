@@ -34,7 +34,7 @@ function App() {
   useEffect(() => {
     // initialize new gradient
     // @Params
-    // 1. id of canvas elememt
+    // 1. id of canvas element
     // 2. array of colors in hexcode
     gradient.initGradient("#" + canvasId, COLORS) 
     // Mesh Id 
